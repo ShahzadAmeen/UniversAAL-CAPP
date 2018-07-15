@@ -1,0 +1,5 @@
+package de.fraunhofer.igd.uAAL.capp.capp.web.util;
+
+public interface KeyGenerator {
+
+}

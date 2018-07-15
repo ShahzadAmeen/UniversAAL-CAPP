@@ -1,0 +1,9 @@
+package de.fraunhofer.igd.uAAL.capp.capp.web.util;
+
+import de.fraunhofer.igd.uAAL.capp.capp.web.model.User;
+
+public class UserAuthenticator {
+	public void authenticate(User userBean) {
+	//logic to authenticate	
+	}
+}

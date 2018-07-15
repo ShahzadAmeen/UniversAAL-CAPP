@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="/home/shahzad/Documents/Code/Old Code/wqz.capp.pom"/>
+		<item value="/home/shahzad/Documents/Code/Old Code/wqz.web"/>
+		<item value="/home/shahzad/Documents/ousama code/ConfiguAAL"/>
+		<item value="/home/shahzad/Documents/WORKSPACE/wqz.capp.pom"/>
+		<item value="/home/shahzad/Documents/WORKSPACE"/>
+	</list>
+	<section name="NewWizardAction">
+	</section>
+</section>

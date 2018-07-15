@@ -1,0 +1,14 @@
+package de.fraunhofer.igd.uAAL.capp.capp.web.controller;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+ 
+
+@WebServlet(urlPatterns = {"/sendFile", "/uploadFile"})
+public class LoginController extends HttpServlet {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -3428008567020347685L;
+
+}

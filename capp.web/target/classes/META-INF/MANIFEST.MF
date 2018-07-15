@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1531657391784
+Build-Jdk: 1.8.0_172
+Built-By: shahzad
+Bundle-Description: capp.web OSGi blueprint bundle project.
+Bundle-ManifestVersion: 2
+Bundle-Name: capp.web Blueprint Bundle
+Bundle-SymbolicName: capp.web
+Bundle-Version: 1.0.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: de.fraunhofer.igd.uAAL.capp.capp.web.controller;uses:="j
+ avax.servlet,javax.servlet.annotation,javax.servlet.http";version="1.0.
+ 0",de.fraunhofer.igd.uAAL.capp.capp.web;version="1.0.0",de.fraunhofer.i
+ gd.uAAL.capp.capp.web.model;version="1.0.0"
+Export-Service: javax.servlet.Servlet;alias="/Login",org.ops4j.pax.web.e
+ xtender.whiteboard.ErrorPageMapping,org.ops4j.pax.web.extender.whiteboa
+ rd.ResourceMapping,org.ops4j.pax.web.extender.whiteboard.WelcomeFileMap
+ ping
+Import-Package: javax.servlet;version="[2.5,3.0)",javax.servlet.annotati
+ on;version="[2.5,3.0)",javax.servlet.http;version="[2.5,3.0)",org.ops4j
+ .pax.web.extender.whiteboard;version="[3.0,4)",org.ops4j.pax.web.extend
+ er.whiteboard.runtime;version="[3.0,4)",org.osgi.framework;version="[1.
+ 0.0,5.0.0)",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.osgi
+ .service.http;version="[1.0.0,5.0.0)"
+Tool: Bnd-1.50.0

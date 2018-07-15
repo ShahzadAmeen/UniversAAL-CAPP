@@ -1,0 +1,36 @@
+package de.fraunhofer.igd.uAAL.capp.capp.web.model;
+
+import java.util.ArrayList;
+
+import de.fraunhofer.igd.uAAL.capp.capp.web.util.PasswordUtility;
+
+public class User {
+	private String userName;
+	private String password;
+	private ArrayList<Apartment> apartments;
+	private String Role;
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = PasswordUtility.digestPassword(password);
+	}
+
+	public ArrayList<Apartment> getApartments() {
+		return apartments;
+	}
+
+	public void setApartments(ArrayList<Apartment> apartments) {
+		this.apartments = apartments;
+	}
+
+}

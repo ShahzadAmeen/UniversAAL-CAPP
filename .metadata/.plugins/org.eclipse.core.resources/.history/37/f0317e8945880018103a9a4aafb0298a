@@ -1,0 +1,45 @@
+package de.fraunhofer.igd.uAAL.capp.capp.web.util;
+
+public class UserAuthenticator {
+	private void authenticate(String username, String password) {
+		//try{
+//		    	JSONParser parser = new JSONParser(); 
+//		    	JSONArray a = (JSONArray) parser.parse(new FileReader("WQZUsers.json"));
+//		    	  for (Object o : a)
+//		    	  {
+//		    	    JSONObject person = (JSONObject) o;
+		//
+//		    	    String name = (String) person.get("username");
+//		    	    System.out.println(name);
+		//
+//		    	    String pass = (String) person.get("password");
+//		    	    System.out.println(pass);
+		//
+////		    	    String job = (String) person.get("job");
+////		    	    System.out.println(job);
+		////
+////		    	    JSONArray cars = (JSONArray) person.get("cars");
+		////
+////		    	    for (Object c : cars)
+////		    	    {
+////		    	      System.out.println(c+"");
+////		    	    }
+//		    	  }
+//		    	  
+//		    } catch (FileNotFoundException e) {
+//		        e.printStackTrace();
+//		    } catch (IOException e) {
+//		        e.printStackTrace();
+//		    } catch (ParseException e) {
+//		        e.printStackTrace();
+//		    }
+
+//		    	TypedQuery<User> query = em.createNamedQuery(User.FIND_BY_LOGIN_PASSWORD, User.class);
+//		        query.setParameter("login", login);
+//		        query.setParameter("password", PasswordUtils.digestPassword(password));
+//		        User user = query.getSingleResult();
+		//
+//		        if (user == null)
+//		            throw new SecurityException("Invalid user/password");
+		    }
+}

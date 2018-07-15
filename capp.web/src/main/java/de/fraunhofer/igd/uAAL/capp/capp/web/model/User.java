@@ -1,0 +1,59 @@
+package de.fraunhofer.igd.uAAL.capp.capp.web.model;
+
+import java.util.ArrayList;
+
+import de.fraunhofer.igd.uAAL.capp.capp.web.util.PasswordUtility;
+
+public class User {
+	private String userName;
+	
+	//Password always encrypted
+	private String password;
+	
+	
+	//List of apartments user can access
+	private ArrayList<Apartment> apartments;
+	
+	
+	
+	//If more than one apartment accessible then ADMINSITRATOR role 
+	//If one apartment accessible then TENANT_USER
+	private String Role;
+	
+	
+	public String getUserName() {
+		return userName;
+	}
+
+	public void setUserName(String userName) {
+		this.userName = userName;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	
+	
+	
+	public void setPassword(String password) {
+		this.password = PasswordUtility.digestPassword(password);
+	}
+
+	public ArrayList<Apartment> getApartments() {
+		return apartments;
+	}
+
+	public void setApartments(ArrayList<Apartment> apartments) {
+		this.apartments = apartments;
+	}
+
+	public String getRole() {
+		return Role;
+	}
+
+	public void setRole(String role) {
+		Role = role;
+	}
+
+}

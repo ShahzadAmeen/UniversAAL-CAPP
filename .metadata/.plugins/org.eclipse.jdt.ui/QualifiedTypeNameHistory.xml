@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="de.fraunhofer.igd.uAAL.capp.capp.web.util.KeyGenerator"/>
+<fullyQualifiedTypeName name="de.fraunhofer.igd.uAAL.capp.capp.web.util.UserAuthenticator"/>
+<fullyQualifiedTypeName name="de.fraunhofer.igd.uAAL.capp.capp.web.model.User"/>
+<fullyQualifiedTypeName name="de.fraunhofer.igd.uAAL.capp.capp.web.util.PasswordUtility"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
+<fullyQualifiedTypeName name="javax.servlet.ServletException"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServlet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+<fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+<fullyQualifiedTypeName name="de.fraunhofer.igd.uAAL.capp.capp.web.identifiers.StringIdentifiers"/>
+</qualifiedTypeNameHistroy>

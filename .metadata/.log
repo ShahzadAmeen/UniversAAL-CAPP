@@ -1,0 +1,1096 @@
+!SESSION 2018-07-10 21:58:21.859 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.ui.ide 4 0 2018-07-10 21:59:58.274
+!MESSAGE Could not import project located at /home/shahzad/Documents/WORKSPACE
+!STACK 0
+org.eclipse.ui.internal.wizards.datatransfer.CouldNotImportProjectException: Could not import project located at /home/shahzad/Documents/WORKSPACE
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:518)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.run(SmartImportJob.java:239)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:557)
+	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:505)
+	... 2 more
+!SESSION 2018-07-10 22:05:30.774 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.371
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.378
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.380
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.382
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.383
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.385
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.activityhub:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:23.388
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:ont.activityhub:jar:3.4.2-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.224
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.225
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.227
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.228
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.230
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.232
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.situation.reasoner:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.233
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:ont.situation.reasoner:jar:3.4.2-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.549
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.551
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.554
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.556
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.557
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.559
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.ontology:ont.personalhealthdevice:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:25.561
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:ont.personalhealthdevice:jar:3.4.2-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.478
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.479
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.481
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.482
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.483
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.485
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:07:26.487
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.middleware:mw.junit:jar:3.4.2-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.851
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.852
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.854
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.855
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/snapshots/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-snapshots (http://depot.universaal.org/maven-repo/snapshots/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.865
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://depot.universaal.org/maven-repo/thirdparty/ was cached in the local repository, resolution will not be reattempted until the update interval of uaal-thirdparty has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to uaal-thirdparty (http://depot.universaal.org/maven-repo/thirdparty/): depot.universaal.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.867
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Failure to transfer org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from http://repository.apache.org/snapshots was cached in the local repository, resolution will not be reattempted until the update interval of apache-snapshots has elapsed or updates are forced. Original error: Could not transfer metadata org.universAAL.middleware:mw.junit:3.4.2-SNAPSHOT/maven-metadata.xml from/to apache-snapshots (http://people.apache.org/repo/m2-snapshot-repository): people.apache.org
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-10 22:08:55.868
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.middleware:mw.junit:jar:3.4.2-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.eclipse.ui 2 2 2018-07-10 22:09:23.874
+!MESSAGE Invalid preference category path: org.eclipse.papyrus.infra.properties.ui.propertyview (bundle: org.eclipse.papyrus.uml.properties, page: org.eclipse.papyrus.uml.properties.multiplicityEditorProperties)
+
+!ENTRY org.eclipse.ui 4 4 2018-07-10 22:09:31.168
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.backwardHistory: {ActionHandler(org.eclipse.ui.internal.dialogs.PreferencePageHistory$1@54a0f09d)} vs {ActionHandler(org.eclipse.ui.internal.NavigationHistoryAction@78e5b18)}
+!SESSION 2018-07-12 20:09:28.750 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-12 20:09:36.576
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:27.678
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.centralswitch.water.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:27.773
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.mtg.parser:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.121
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.ventilation.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.130
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.heating.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.133
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.blinds.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.136
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.motion.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.141
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.humidity.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.148
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.smoke.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.163
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.outlet.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.166
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.lighting.lightingontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.169
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.lighting.dimming.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.184
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.lighting.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.196
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.centralswitch.power.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.263
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.phone.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.266
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.phone.phoneontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.271
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.email.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.274
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.parser:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.280
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.door.doorontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.284
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.door.server:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.289
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.door.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.300
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.co2.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.304
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.airquality.airqualityontology:jar:3.4.1 is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:30:28.307
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.situation.situationontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:58.961
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.interfaces:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:58.969
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.parser:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:58.980
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.centralswitch.water.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:58.983
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.mtg.parser:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.163
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.ventilation.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.167
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.heating.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.170
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.blinds.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.172
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.motion.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.174
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.humidity.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.175
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.smoke.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.177
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.outlet.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.182
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.lighting.lightingontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.187
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.lighting.dimming.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.190
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.lighting.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.192
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.centralswitch.power.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.213
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.phone.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.216
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.phone.phoneontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.218
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.email.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.221
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.door.doorontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.223
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.door.server:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.226
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.door.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.228
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.co2.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.229
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.airquality.airqualityontology:jar:3.4.1 is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.232
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.situation.situationontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.235
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.350
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.interfaces:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.355
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.parser:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.363
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.centralswitch.water.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.366
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.mtg.parser:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.478
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.ventilation.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.480
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.heating.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.483
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.blinds.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.486
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.motion.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.496
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.humidity.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.498
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.smoke.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.501
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.outlet.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.503
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.lighting.lightingontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.509
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.lighting.dimming.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.511
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.tools.samples:smp.lighting.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.514
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.centralswitch.power.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.546
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.phone.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.549
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.phone.phoneontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.551
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.email.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.554
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.door.doorontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.556
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.door.server:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.559
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.door.client:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.561
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.samples:smp.co2.sensor:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.562
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.airquality.airqualityontology:jar:3.4.1 is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.564
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The POM for org.universAAL.ontology:smp.situation.situationontology:jar:3.1.0-SNAPSHOT is missing, no dependency information available
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-13 21:34:59.568
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - The artifact org.apache.commons:commons-io:jar:1.3.2 has been relocated to commons-io:commons-io:jar:1.3.2
+
+
+!ENTRY org.eclipse.ui 2 2 2018-07-14 23:48:28.558
+!MESSAGE Invalid preference category path: org.eclipse.papyrus.infra.properties.ui.propertyview (bundle: org.eclipse.papyrus.uml.properties, page: org.eclipse.papyrus.uml.properties.multiplicityEditorProperties)
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2018-07-14 23:48:55.723
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at http://depot.universAAL.org/eclipse-update.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.fail(CachingRepositoryManager.java:340)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:239)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:463)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.doLoad(LoadMetadataRepositoryJob.java:117)
+	at org.eclipse.equinox.p2.ui.LoadMetadataRepositoryJob.runModal(LoadMetadataRepositoryJob.java:102)
+	at org.eclipse.equinox.internal.p2.ui.sdk.PreloadingRepositoryHandler$2.runModal(PreloadingRepositoryHandler.java:83)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2018-07-14 23:48:55.724
+!MESSAGE No repository found at http://depot.universAAL.org/eclipse-update.
+!SESSION 2018-07-14 23:57:46.470 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 00:08:29.395
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 00:08:29.400
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.apache.log4j 2 0 2018-07-15 00:08:58.287
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+
+!ENTRY org.apache.log4j 2 0 2018-07-15 00:08:58.321
+!MESSAGE org.eclipse.m2e.core.internal.embedder.EclipseLogger  - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 00:08:58.600
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 00:08:58.600
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:09:55.049
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.updateParentAction(MavenPomEditorPage.java:392)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.access$2(MavenPomEditorPage.java:388)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage$4.run(MavenPomEditorPage.java:260)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:09:55.052
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.apache.log4j 4 0 2018-07-15 00:09:55.068
+!MESSAGE org.eclipse.m2e.editor.pom.OverviewPage  - Failed to populate overview panel
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:09:55.153
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.updateParentAction(MavenPomEditorPage.java:392)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.access$2(MavenPomEditorPage.java:388)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage$4.run(MavenPomEditorPage.java:260)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:09:55.156
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.apache.log4j 4 0 2018-07-15 00:09:55.157
+!MESSAGE org.eclipse.m2e.editor.pom.OverviewPage  - Failed to populate overview panel
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:09:55.166
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.apache.log4j 4 0 2018-07-15 00:09:55.168
+!MESSAGE org.eclipse.m2e.editor.pom.OverviewPage  - Failed to populate overview panel
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:09:55.184
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.apache.log4j 4 0 2018-07-15 00:09:55.185
+!MESSAGE org.eclipse.m2e.editor.pom.OverviewPage  - Failed to populate overview panel
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:10:06.123
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.updateParentAction(MavenPomEditorPage.java:392)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage.access$2(MavenPomEditorPage.java:388)
+	at org.eclipse.m2e.editor.pom.MavenPomEditorPage$4.run(MavenPomEditorPage.java:260)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:10:06.124
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.apache.log4j 4 0 2018-07-15 00:10:06.126
+!MESSAGE org.eclipse.m2e.editor.pom.OverviewPage  - Failed to populate overview panel
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.wst.sse.core 4 4 2018-07-15 00:10:06.167
+!MESSAGE can not calculate a model ID without a document reference
+!STACK 0
+java.lang.IllegalArgumentException: can not calculate a model ID without a document reference
+	at org.eclipse.wst.sse.core.internal.FileBufferModelManager.calculateId(FileBufferModelManager.java:485)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl._getModelFor(ModelManagerImpl.java:617)
+	at org.eclipse.wst.sse.core.internal.model.ModelManagerImpl.getModelForRead(ModelManagerImpl.java:1457)
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:467)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.apache.log4j 4 0 2018-07-15 00:10:06.168
+!MESSAGE org.eclipse.m2e.editor.pom.OverviewPage  - Failed to populate overview panel
+
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.m2e.core.ui.internal.editing.PomEdits.performOnDOMDocument(PomEdits.java:510)
+	at org.eclipse.m2e.editor.pom.OverviewPage$17.run(OverviewPage.java:1129)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4536)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4154)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:150)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:693)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:610)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:138)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1492)
+
+!ENTRY org.eclipse.ui 2 2 2018-07-15 00:11:26.177
+!MESSAGE Invalid preference category path: org.eclipse.papyrus.infra.properties.ui.propertyview (bundle: org.eclipse.papyrus.uml.properties, page: org.eclipse.papyrus.uml.properties.multiplicityEditorProperties)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 00:24:24.853
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 00:24:24.853
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-07-15 14:16:38.136 -----------------------------------------------
+eclipse.buildId=4.6.3.M20170301-0400
+java.version=1.8.0_172
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-07-15 14:18:32.830
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 14:19:43.386
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 14:19:43.391
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 14:21:47.609
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-07-15 14:21:47.609
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
